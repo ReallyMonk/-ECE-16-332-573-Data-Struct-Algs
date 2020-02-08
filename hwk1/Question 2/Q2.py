@@ -9,12 +9,9 @@ class QF:
         for i in range(0, 8193):
             if pid == id[i]:
                 id[i] = qid
-    
+
     def connected(self, pair):
-        if pair[0] == pair[1]:
-            return True
-        else:
-            return False
+        return pair[0] == pair[1]
 
 
 class QU:
@@ -28,20 +25,34 @@ class QU:
         q = pair[1]
         id[p] = q
 
+    def connected(self, pair):
+        return self.root(pair[0]) == self.root(pair[1])
+
 
 class WQU:
+    def __init__(self):
+        self.sz = [1 for i in range(0, 8193)]
+
     def root(self, i):
         while i != id[i]:
-            id[i] = id[id[i]]
             i = id[i]
         return i
 
     def Union(self, pair):
-        p = pair[0]
-        q = pair[1]
-        id[p] = q
+        p = self.root(pair[0])
+        q = self.root(pair[1])
+        if self.sz[p] < self.sz[q]:
+            id[p] = q
+            self.sz[p] = self.sz[p] + self.sz[q]
+        else:
+            id[q] = p
+            self.sz[q] = self.sz[q] + self.sz[p]
 
-path = 'D:/Rutgers/2nd Semester/DATA STRUCT & ALGS/Homework/hwk1/Question 2/hw1-2.data'
+    def connected(self, pair):
+        return self.root(pair[0]) == self.root(pair[1])
+
+
+path = './hw1-2.data'
 files = os.listdir(path)
 
 # initial
@@ -62,20 +73,18 @@ for file in files:
     QFtest = QF()
     QUtest = QU()
     WQUtest = WQU()
-    # time counting
+    # time counting for reading sequence
     start = time.clock()
     #for num_pair1 in num_pairs:
     #    QFtest.Union(num_pair1)
     time1 = time.clock()
-    for num_pair2 in num_pairs:
-        QUtest.Union(num_pair2)
+    #for num_pair2 in num_pairs:
+    #    QUtest.Union(num_pair2)
     time2 = time.clock()
-    for num_pair3 in num_pairs:
-        WQUtest.Union(num_pair3)
+    #for num_pair3 in num_pairs:
+    #    WQUtest.Union(num_pair3)
     time3 = time.clock()
 
     last_time1 = time1 - start
     last_time2 = time2 - time1
     last_time3 = time3 - time2
-
-    print(last_time3)
