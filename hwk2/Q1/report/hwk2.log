@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.2.8)  17 FEB 2020 20:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.2.8)  17 FEB 2020 22:39
 entering extended mode
 **"d:/Rutgers/2nd Semester/DATA STRUCT & ALGS/Homework/hwk2/Q1/report/hwk2.tex"
 ("d:/Rutgers/2nd Semester/DATA STRUCT & ALGS/Homework/hwk2/Q1/report/hwk2.tex"
@@ -444,6 +444,16 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 460.
 )
+<Pic/pic1.png, id=1, 361.35pt x 217.5628pt>
+File: Pic/pic1.png Graphic file (type png)
+<use Pic/pic1.png>
+Package pdftex.def Info: Pic/pic1.png  used on input line 38.
+(pdftex.def)             Requested size: 18.06856pt x 10.87877pt.
+File: Pic/pic1.png Graphic file (type png)
+<use Pic/pic1.png>
+Package pdftex.def Info: Pic/pic1.png  used on input line 42.
+(pdftex.def)             Requested size: 18.06856pt x 10.87877pt.
+
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -459,19 +469,19 @@ Before submitting the final camera ready copy, remember to:
 
 
 
-] (hwk2.aux) ) 
+ <./Pic/pic1.png>] (hwk2.aux) ) 
 Here is how much of TeX's memory you used:
- 4778 strings out of 492484
- 67912 string characters out of 3130168
- 133913 words of memory out of 3000000
- 9073 multiletter control sequences out of 15000+200000
+ 4787 strings out of 492484
+ 68017 string characters out of 3130168
+ 135913 words of memory out of 3000000
+ 9079 multiletter control sequences out of 15000+200000
  29080 words of font info for 58 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,8n,37p,363b,250s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/Really Monkey/AppData/Roaming/MiKTeX/2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Really Monkey/AppData/Roaming/MiKTeX/2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on hwk2.pdf (1 page, 26749 bytes).
+Output written on hwk2.pdf (1 page, 35144 bytes).
 PDF statistics:
- 15 PDF objects out of 1000 (max. 8388607)
+ 18 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

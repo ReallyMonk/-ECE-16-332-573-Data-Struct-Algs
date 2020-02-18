@@ -64,9 +64,9 @@ for ln in rg:
     s_cp_3.append(cp3)
     s_cp_7.append(cp7)
     s_cp_all.append(total_shell_comp)
-    s_t_1.append(time1)
+    s_t_1.append(time3)
     s_t_3.append(time2)
-    s_t_7.append(time3)
+    s_t_7.append(time1)
     s_t_all.append(total_shell_t)
 
     # loop for insertion sort
