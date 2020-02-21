@@ -1,4 +1,6 @@
 import time
+import read_file
+import os
 
 
 def shellsort(nums, h):
@@ -40,10 +42,16 @@ s_cp_all = []
 i_t = []
 i_cp = []
 
-rg = [10 * 2**i for i in range(11)]
-for ln in rg:
-    shellnums = list(range(ln, 0, -1))
-    insertionnums = list(range(ln, 0, -1))
+# read file from datasets
+path = 'D:\Rutgers/2nd Semester\DATA STRUCT & ALGS\Homework\hwk2\data/'
+files = os.listdir(path)
+
+for file in files:
+    print(file)
+    num_path = path + file
+
+    shellnums = read_file.read_file(num_path)
+    insertionnums = read_file.read_file(num_path)
 
     # loop for shell sort
     t0 = time.perf_counter()
@@ -76,6 +84,8 @@ for ln in rg:
     inser_time = it1 - it0
     i_cp.append(cp_inser)
     i_t.append(inser_time)
+
+    print('end')
 
 print(s_t_1)
 print(s_t_3)
