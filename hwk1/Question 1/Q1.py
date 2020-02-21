@@ -10,8 +10,8 @@ def three_sum_1(nums):
         print('s1:', i)
         for j in range(i + 1, len(nums)):
             for k in range(j + 1, len(nums)):
-                    count = count + 1
-                    continue
+                count = count + 1
+                continue
     print('1end')
     return count
 
@@ -46,6 +46,7 @@ def three_sum_2(nums):
                     continue
     #print('2end')
     return count
+
 
 # input the address of your dataset
 path = 'D:/Rutgers/2nd Semester/DATA STRUCT & ALGS/Homework/hwk1/Question 1/hw1-1.data'
@@ -89,5 +90,3 @@ for file in files:
     fw2 = open(wpath + 'time2.txt', 'a')
     fw2.write(str(last_time2) + '\n')
     fw2.close()
-
-
