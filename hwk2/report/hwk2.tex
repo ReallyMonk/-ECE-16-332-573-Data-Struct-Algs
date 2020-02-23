@@ -138,6 +138,33 @@ The process rakes $N$ comparisions and $2N$ writes. Which I think should be the 
 time consumption.
 
 \subsection*{Question 5}
+As we can see on the follow graph, insertion sort can always take advantage in sort 
+of data0, since data0 is already sorted. But we it came to data1, which is unsorted 
+sequence, the performence is much more worse than quicksort. If we increase the cut-off
+to 35 the performence of insertion sort can achive the same level with quicksort on 
+the sqquence whose length is 1024, but the time increase ripadly as the length goes on.
+Meanwhile, if we want the insertion sort has a similar performence on the sequence 
+whose length is 32768, we need to increase the cut-off to 800.
 
+\begin{figure}[H]
+    \centerline{\includegraphics[scale=0.65]{Pic/pic10.png}}
+\end{figure}
+
+\begin{figure}[H]
+    \centerline{\includegraphics[scale=0.65]{Pic/pic11.png}}
+\end{figure}
+
+\subsection*{Question 6}
+We mark the sequence from left to right as 1 to 8 except the input and the result.
+\begin{enumerate}[1]
+    \item Mergesort (bottom-up). Every 4 item are sorted.
+    \item Quicksort (standard, no shuffle). Every entities before navy is smaller than it and every entities after navy is greater. And palm is not been exchanged.
+    \item Knuth shuffle. All the entities after silk are in place and plum, pink are not in place, which means this is not insertion sort.
+    \item Mergesort (top-down). The first 12 entities are sorted and the 13 to 18, 19 to 24 are sorted.
+    \item Insertion sort. Every thing beform silk is sorted and every thing after silk is the same as origin.
+    \item Heapsort. If we fill this sequence into a tree from 0 to 23, we can see that all child nodes are greater than their parents.
+    \item Selection sort. Every entity on the right of silk is larger and every entity on the left are sorted.
+    \item Quicksort (3-way, no shuffle). Every entities before navy is smaller than it and every entities after navy is greater. And palm is been exchanged, because it is the median of plum, lime and palm.
+\end{enumerate}
 
 \end{document}
