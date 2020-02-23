@@ -104,7 +104,7 @@ def KDT_dis(nums0, nums1):
 
     # print(nums1_resrt)
 
-    return insertionsort(nums1_resrt.copy()), bot_up_mergesort(nums1_resrt)
+    return insertionsort(nums1_resrt)
 
 
 path_0 = 'D:\Rutgers\\2nd Semester\DATA STRUCT & ALGS\Homework\hwk2\sp_data\\0\\'
@@ -122,16 +122,16 @@ for (file0, file1) in zip(_0files, _1fiels):
     nums1 = read_file.read_file(num1_path)
     print(file0)
     print(file1)
-    
+
     t0 = time.perf_counter()
-    res1, res2 = KDT_dis(nums0, nums1)
+    res1 = KDT_dis(nums0, nums1)
     t1 = time.perf_counter()
     time_count.append(t1 - t0)
-    
-    print(res1, res2)
-    print(t1 - t0)
-    
 
+    print(res1)
+    print(t1 - t0)
+
+print(time_count)
 '''
 a = [1, 2, 3, 4]
 b = [4, 3, 2, 1]
