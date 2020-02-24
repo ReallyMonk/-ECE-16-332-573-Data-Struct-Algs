@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.2.8)  23 FEB 2020 16:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.2.8)  23 FEB 2020 20:29
 entering extended mode
 **"d:/Rutgers/2nd Semester/DATA STRUCT & ALGS/Homework/hwk2/report/hwk2.tex"
 ("d:/Rutgers/2nd Semester/DATA STRUCT & ALGS/Homework/hwk2/report/hwk2.tex"
@@ -502,17 +502,22 @@ File: Pic/pic9.png Graphic file (type png)
 <use Pic/pic9.png>
 Package pdftex.def Info: Pic/pic9.png  used on input line 125.
 (pdftex.def)             Requested size: 235.36403pt x 141.41414pt.
- [2 <./Pic/pic6.png> <./Pic/pic7.png> <./Pic/pic8.png> <./Pic/pic9.png>]
-<Pic/pic10.png, id=30, 362.10281pt x 217.5628pt>
+<Pic/pic10.png, id=20, 362.10281pt x 221.32687pt>
 File: Pic/pic10.png Graphic file (type png)
 <use Pic/pic10.png>
-Package pdftex.def Info: Pic/pic10.png  used on input line 150.
-(pdftex.def)             Requested size: 235.36403pt x 141.41414pt.
-<Pic/pic11.png, id=31, 362.10281pt x 217.5628pt>
+Package pdftex.def Info: Pic/pic10.png  used on input line 146.
+(pdftex.def)             Requested size: 235.36403pt x 143.86075pt.
+ [2 <./Pic/pic6.png> <./Pic/pic7.png> <./Pic/pic8.png> <./Pic/pic9.png>]
+<Pic/pic11.png, id=31, 362.10281pt x 221.32687pt>
 File: Pic/pic11.png Graphic file (type png)
 <use Pic/pic11.png>
-Package pdftex.def Info: Pic/pic11.png  used on input line 154.
-(pdftex.def)             Requested size: 235.36403pt x 141.41414pt.
+Package pdftex.def Info: Pic/pic11.png  used on input line 150.
+(pdftex.def)             Requested size: 235.36403pt x 143.86075pt.
+<Pic/pic12.png, id=32, 362.10281pt x 220.57407pt>
+File: Pic/pic12.png Graphic file (type png)
+<use Pic/pic12.png>
+Package pdftex.def Info: Pic/pic12.png  used on input line 159.
+(pdftex.def)             Requested size: 235.36403pt x 143.37143pt.
 
 
 ** Conference Paper **
@@ -525,19 +530,19 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[3 <./Pic/pic10.png> <./Pic/pic11.png>] (hwk2.aux) ) 
+[3 <./Pic/pic10.png> <./Pic/pic11.png> <./Pic/pic12.png>] (hwk2.aux) ) 
 Here is how much of TeX's memory you used:
- 4894 strings out of 492484
- 69486 string characters out of 3130168
+ 4900 strings out of 492484
+ 69579 string characters out of 3130168
  139913 words of memory out of 3000000
- 9154 multiletter control sequences out of 15000+200000
+ 9159 multiletter control sequences out of 15000+200000
  36681 words of font info for 81 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,8n,37p,360b,251s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Really Monkey/AppData/Roaming/MiKTeX/2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Really Monkey/AppData/Roaming/MiKTeX/2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on hwk2.pdf (3 pages, 131094 bytes).
+Output written on hwk2.pdf (3 pages, 141889 bytes).
 PDF statistics:
- 54 PDF objects out of 1000 (max. 8388607)
+ 56 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

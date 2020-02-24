@@ -132,9 +132,3 @@ for (file0, file1) in zip(_0files, _1fiels):
     print(t1 - t0)
 
 print(time_count)
-'''
-a = [1, 2, 3, 4]
-b = [4, 3, 2, 1]
-res1, res2 = KDT_dis(a, b)
-print(res1, res2)
-'''
