@@ -1,0 +1,8 @@
+\contentsline {section}{\numberline {1}Introduction}{2}%
+\contentsline {section}{\numberline {2}Algorithms}{2}%
+\contentsline {subsection}{\numberline {2.1}Insertion Sort}{3}%
+\contentsline {subsection}{\numberline {2.2}Bubble Sort}{3}%
+\contentsline {subsection}{\numberline {2.3}Quick Sort}{4}%
+\contentsline {subsection}{\numberline {2.4}Counting Sort}{6}%
+\contentsline {subsection}{\numberline {2.5}Bucket Sort}{7}%
+\contentsline {section}{\numberline {3}Application Usage}{8}%
